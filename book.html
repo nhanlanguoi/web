@@ -1,138 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top 5 famous literature books</title>
+  <style>
+    .container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .preview {
+      width: 300px;
+      height: 200px;
+      border: 2px solid black;
+    }
+
+    .thumbnails img {
+      width: 100px;
+      height: 70px;
+      cursor: pointer;
+      border: 2px solid transparent;
+    }
+
+    .thumbnails img:hover {
+      border-color: blue;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1 style="font-size: 50px;">
-            Top 5 famous literature books
-        </h1>
-    </header>
-
-    <main>
-        <h1>
-        <ol>
-            <li>
-                <h2>
-                    Don Quixote 
-                </h2>
-                <a href="https://en.wikipedia.org/wiki/Don_Quixote#:~:text=Don%20Quixote%2C%20the%20full%20title,be%20the%20first%20modern%20novel.">
-                    <img src="./image/image.png" alt="erro" width="250px">
-                </a>
-                <h3>article information</h3>
-                <p style="width: 500px;font-size: 13px;">
-                    Don Quixote,[a][b] the full title being The Ingenious Gentleman Don Quixote of La Mancha,[c] is a Spanish novel by Miguel de Cervantes. The novel, originally published in two parts, in 1605 and 1615 is considered a founding work of Western literature. It's often said to be the first modern novel.[2][3] The novel has been labelled by many well-known authors as the "best novel of all time"[d] and the "best and most central work in world literature".[5][4] Don Quixote is also one of the most-translated books in the world[6] and one of the best-selling novels of all time.
-                </p>
-            </li>
-
-            <li>
-                <h2>
-                    War and Peace
-                </h2>
-                <a href="https://en.wikipedia.org/wiki/War_and_Peace">
-                    <img src="./image/image copy.png" alt="erro" width="250px">
-                </a>
-                <h3>article information</h3>
-                <p style="width: 500px;font-size: 13px;">
-                    War and Peace (Russian: Война и мир, romanized: Voyna i mir; pre-reform Russian: Война и миръ; [vɐjˈna i ˈmʲir]) is a literary work by the Russian author Leo Tolstoy. Set during the Napoleonic Wars, the work comprises both a fictional narrative and chapters in which Tolstoy discusses history and philosophy. An early version was published serially beginning in 1865, after which the entire book was rewritten and published in 1869. It is regarded, with Anna Karenina, as Tolstoy's finest literary achievement, and it remains an internationally praised classic of world literature.
-                </p>
-            </li>
-
-            <li>
-                <h2>
-                    Pride and Prejudice
-                </h2>
-                <a href="https://en.wikipedia.org/wiki/Pride_and_Prejudice">
-                    <img src="./image/image copy 2.png" alt="erro" width="250px">
-                </a>
-                <h3>article information</h3>
-                <p style="width: 500px;font-size: 13px;">
-                    Pride and Prejudice is the second novel by English author Jane Austen, published in 1813. A novel of manners, it follows the character development of Elizabeth Bennet, the protagonist of the book, who learns about the repercussions of hasty judgments and comes to appreciate the difference between superficial goodness and actual goodness.
-                </p>
-            </li>
-
-            <li>
-                <h2>
-                    The Great Gatsby
-                </h2>
-                <a href="https://en.wikipedia.org/wiki/The_Great_Gatsby">
-                    <img src="./image/image copy 3.png" alt="erro" width="250px">
-                </a>
-                <h3>article information</h3>
-                <p style="width: 500px;font-size: 13px;">
-                    The Great Gatsby (/ɡætsbiː/ ⓘ) is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with Jay Gatsby, a mysterious millionaire with an obsession to reunite with his former lover, Daisy Buchanan.
-                </p>
-            </li>
-
-
-            <li>
-                <h2>
-                    Moby-Dick
-                </h2>
-                <a href="https://en.wikipedia.org/wiki/Moby-Dick">
-                    <img src="./image/image copy 4.png" alt="erro" width="250px">
-                </a>
-                <h3>article information</h3>
-                <p style="width: 500px; font-size: 13px;">
-                    Moby-Dick; or, The Whale is an 1851 epic novel by American writer Herman Melville. The book is centered on the sailor Ishmael's narrative of the maniacal quest of Ahab, captain of the whaling ship Pequod, for vengeance against Moby Dick, the giant white sperm whale that bit off his leg on the ship's previous voyage. A contribution to the literature of the American Renaissance, Moby-Dick was published to mixed reviews, was a commercial failure, and was out of print at the time of the author's death in 1891. Its reputation as a Great American Novel was established only in the 20th century, after the 1919 centennial of its author's birth. William Faulkner said he wished he had written the book himself,[1] and D. H. Lawrence called it "one of the strangest and most wonderful books in the world" and "the greatest book of the sea ever written".[2] Its opening sentence, "Call me Ishmael", is among world literature's most famous.
-                </p>
-            </li>
-        </ol>
-    </h1>
-    </main>
-
-    <footer>
-        <h2>NOTE:</h2>
-        <table>
-            <tr>
-                <td>
-                    Don Quixote 
-                </td>
-                <td>
-                    <a href="https://en.wikipedia.org/wiki/Don_Quixote#:~:text=Don%20Quixote%2C%20the%20full%20title,be%20the%20first%20modern%20novel.">
-                        <img src="./image/image.png" alt="erro" width="50px">
-                    </a>
-                </td>
-                <td>
-                    War and Peace
-                </td>
-                <td>
-                    <a href="https://en.wikipedia.org/wiki/War_and_Peace">
-                        <img src="./image/image copy.png" alt="erro" width="50px">
-                    </a>
-                </td>
-                <td>
-                    Pride and Prejudice
-                </td>
-                <td>
-                    <a href="https://en.wikipedia.org/wiki/Pride_and_Prejudice">
-                        <img src="./image/image copy 2.png" alt="erro" width="50px">
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    The Great Gatsby
-                </td>
-                <td>
-                    <a href="https://en.wikipedia.org/wiki/The_Great_Gatsby">
-                        <img src="./image/image copy 3.png" alt="erro" width="50px">
-                    </a>
-                </td>
-                <td>
-                    Moby-Dick 
-                </td>
-                <td>
-                    <a href="https://en.wikipedia.org/wiki/Moby-Dick">
-                        <img src="./image/image copy 4.png" alt="erro" width="50px">
-                    </a>
-                </td>
-            </tr>
-           
-        </table>
-    </footer>
+  <h1 class="title">welcome to from page  </h1>
+  
+  <button onclick="showtitle();" > click here <p id="tick"></p></button>
 </body>
+
+<div class="container">
+    
+    <img id="mainImage" class="preview" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTExIWFRUXFxgXGRgYFRgaGhUaGBcaGBceGBYYHSggGBolHRcaITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQGisdHR0tLS0tLS0tLS0rLS0tLSstLS0tLS0tLS0rKy0tLS0tLTc3LSstLS03LTctKysrKzc3Lf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAgMEBQYBBwj/xABMEAACAQIEAgcDCAYIBAUFAAABAhEAAwQSITEFQQYTIlFhcYEykaEUI0JScpKxwQcVYoKy0SQzNENjc+HwU5PS8URUorPCFmR0g8P/xAAaAQADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/8QAJBEAAgIBBAICAwEAAAAAAAAAAAECEQMEEiExMkETIgVRYSP/2gAMAwEAAhEDEQA/APYMlKrk12a5zoAGg12uE0mHQCu0ziMUlsTcdUHezBR7yaquKccNrFYWwFUpfF0s5aMgtrOnI0qJsuxRmqBi8cepN2yEvQJGW6oUjnFz2dPH31WdE8SxsM1y6XUOctx7lpiVPIm2zBVXYSxJ509objRTXKat4q2zFVuIzASVDAkA7EgGQKQcball623mWMwzrKztInSfGhILJMUmK6zQJOgHfTOHxSXBNt1cAkSjBgCN9Qd6AscbSqTpViGSxKuUbMII3Pf6V23xh2u3wRbFi0vtrdVrhaJaUUkIo8dT3VlExLs1u9iGd7AuZCzsoC5hKyo5DYmmJsm8InGn5zFtmQgm2gyiJ79ztWuv4ZWgmQRzBIPw38qreLY42l6zDpZu5WQXB1iIQhiCrEhZ7gSJq5Uc5/7UqEZfDIf1pdBaYwqa/wD7GrS8qwN/pIV4xlt2esFxFtSHU6KWYssGNOYMHQ6VoMZxnELiOoFi0czLlY30X5v+8Jtk5845AKQe+kBe0UzisVbtwLjqmYwMzBZPhJ1NJx9827Vy4BJRGcDkcqkj8KtFWP0VV9HeNLibNl2KLcuW1c2w4JUHwOseMUjC8UvNbvucOA1q4yIq3kOcDYs0xb31B1FOwst6KpMHx8jDXL+IVE6uZNq6l1HA17DA78oMGasuF49L9pL1syriR3jwI5HwpWFkmig0UxnYooopAFFdiilYD9dAoiuF6AFVxq4blIL0BZguk72F4mrcQC/JPkxFouCUF3MM+kQGioVjBYS5e4Tbtq7YY/Ksq39yIUjT6szFelPaVhDKGHiAfxpRtLIMCV2MCRPceVBDR5JcuWrOEx6Gwr2RxIIEOYWrSlQczBCOwDrG1Qb99D+tFtPaa22EtseoQ27TMLiCQhJ5TrXs9yysEBRB1IyjteY500LCckXaPZG3d5eFOxUee2MBbs4zhRsW1ttcw93MVABduqlc0b6k1nbbYL5FbWF+XjFJ12ZT1oPXdqT9UiAOVe0i2pgwNNBoNOWndWYu9DmuXQ17GXbloXBc6opbGYg5lDOoDMqnYUcDo7+k1LhwLZM2XOhuhdzaDdsR3bVnMX8ie1jW4WHN35MA3VCLUSJiBrdyztrXpjCd+dItWVUQqhRvAAH4UgpnmPDkwNzFYFeHqpItuMRlUx1eQAi7pvmOx1qy6c4a3bu4Hr1VcEtx+sEEoHynIXA5edbtLCLOVVWd4AE+cVB49wx79sKl9rJDZsyqrA6EQyuCCNZ8wKApnk3EhZOE40bAXqessZMohYLk6eFejdNVuHheIFqc5saZd47OaI19mal9H+jaYZbuZzee6wa47qozEbDKNAByq522osKPHOC3cKeJ4E4YKE6sBsojt9Q2ef2pOtRulOKtsMYQlm1dXECFK3GxD5WHznWEwi67AEV6NwFV+U42FXs3lAIUCPmlJ5eNWH6rHyhr5diGti31ZC5N5zbSTy1PKiwowvFbmEGPxh4jBttYtCwWBOYZRm6rftz3azFasW1HDWVOsyDDvl63+sjI0Z/H/Srt7SmJVTG0qDHlO1dyzIP/AHoCjybgjYYrwpcMFGMF1Gu5VIbq8rZy5jUHs0m6jHBY7L7H60Ju6MR1YbXMF1KyNYr1lbKgyFAO0gAaefdXOpEMAAoaZgASTz8TTsdM80wuBsPbx7WbmHuKcLraw9p1RXWTbbtEjrNCN5Fa/wDR/estgLHVFTCgPlAHzkDPMbtO9WnCMB1FpbWZniZdsstJO8DxipVtFUQoCjuAj8KHyNIWK7ApNFTtYwNFFFNAFFFFOgJBuc+QrDdI/wBJ2CsStqcRcB1CGFWN5cj8BWb/AEr9M1f+h4a7OvzzITHLsBh8a8wW2e+kombkemYj9MNwiEwag97XS0egUTUHBfpZxqn5y3ZuL3AFT4ayawm1dLVe0mz2nor+kxMXfTDnCvbd9jnUqPOYNegA18r4TEvbuJcQw6MGU+I/KvpngeNe7h7Vx0yuyKWWQYJHeDEVDLiyfNJJrpNJoKOilxSAa6pmkAuuV2imUcortFAUcpLUo0h6TJkUHAFHW4wg6nEmfS2gFXNUPRsfPY3/APJP/tIavqkEFFcmu1cRnKKKKoAooooAKKKKACu1yiigO0VyigD5bK6jYetdS561y4Bzqz6M8JGJvi3ICgFmHNgNwKqT2qzGK3SorrKs5GVGOsaKTPlFXmD6J4u64XqHRSQC5AGUE6nXWvYMLh1RQqKqqNgBAp2a4p6p9I9KOijVtnmnSfoKLVg3LDO7IO2GIOYayQBz8K9U6C4Q2sDYU3Os7CkEiCARIG+sSRVTjMUy5VVC7OYiQAAIksTyq06JXGC3LLR80y5Y2COCQPGCCKeLI5dmefDGPRoRQxNAYUZhW5zUE0oUkGlxQMBXa5XJpjsVRXJooCwpLUo0maTBme6PqOtxvOcT/wDySrob1QdFz2sYf/u7nwCir0NrUslCiK5RRVxGFFFFUAUUUUAFFFFABRRRQAUUUUAfLzLV10GxSWsbaLbNmSe4uIHxqnIrtgw6HudT7mBp5eY0ZYnU0z3q4p2rOYi9h3uLbfPdbQ+04C9qOyq6RNaS6k6TvUdOH2wZCKI2hQOc7+deQ+Ge8uUiJxiQojsrsTE5QTuRvyj1nlXOjlg4a8hzlxd+bckkySS1tteQkr+8O6rFmUyCdt9Kp7xyW7sSyWytxDrplZWyg+Gvoa1hKjHNC0ehA0BqhXcfaUAvcVJA1ZgJ99Q8T0owdsS2Itn7JzH3LNdameZTsuxS81ZbFdNbCqHtpduqeaJz8c5EVXXund0n5vBEjlnuqp9wBp70Pa/RrOI8Vs2FzXrqWx+0wFY/iv6V+HWmyq1y8f8ADXT7xOteUnh2J4nib19mgF31YlgsT2V2GgFZkoo0y6zEyY030rRIyla7PfOin6TLGMxHUdU1qQSjMV7RHKBsa3k18z/o/tzjrY20eDvlOXQjxr0qxx/G3LcfKcsEqSltAQVMHUz3Vnkmo9mmOLkj1ANTY1rywLiT7WPxR/fUD/0qKRibBiTiL/d/XvrPrWXzo1+Jmt6M2yFv307XWYi8xUnucrp4wK0GHuhlBGxE/hWJ6CXns3Pkwk2nVri5jJVge0JOpkGa1VlzbYW2khmOVuWstlI8IOtap2jGSplhRRShVpjOUUVynyB2uV0GuUcgFFFFMAooooAKKKKAPmXiOFW1ea2txXQNCurAhl5GRzitvf6CWTGRnGYDK0kgkqSJ9RVdxLD2riZSCCNiqnQ+gpjhPSa5YIt4kFlywGG4GwOU6EfEVzue5cGsMcYvk3fRTGXza6vEIRctnLJIlxyMVfmqXhPHbd22rrPVns5m5Ecn7jVyGmuLJ5HqY5KlRGxJt2wXYxJG+xPLSqXjnEgLd1CsK6hQ3LUgRt3Her+/hFcgsJI28PKqfiPBDdK2bZl3fMxckgIg7vMilEjLKlZnWexzCmOUSfTma0XCOieIvjMYw6cpWXI7wuy+taDg/RLDYUC7dIuONmYABfsJyPxrQWMUzdpl6tNfbPa842UeddUIccnmTn+jFdI+iDWLD3bV53KAsysq6gd2UCCN6p7XCzetI+Hv51kC/wArlrSTlX138a3/AB7jaJZPVstx37CAEMJI1JjkBqaxoy4KzmRgrroPqliSTI+qdZqvrY8akzKdN+kdrDW/keEyhiIdl+gO6R9I/nVB0X6IteXrr6smHGsxBYR3nZfGtwejVi9eGOaytqQGNsnsMRMuRynePCot/pNhMZcbCvcNuyOzGqdYQIgsNFURtzrZSXot4t3kY3oMQOJ28nsZ7gX7MGK22HtOrXRnEC7c0y7S07zVTgej1nD4u1esXyyKWJDKZAA7RRgIYARV9cgX78bFw33kGvrXNqXaNcUdvB1kP1j6aUm1bGfKSW0DdozBmNO6ngJphP64/wCWP4jXEdBP4QT8vw3dkvA/cB/Kttj0lCYMqCy+DDUVjeEf2ux4db/7ZrcTXoYPA87N5CrLyAZmRSwagtgrZOqA+lR8JZJuubbZbYhcoiCw9qBy0IHpW1mdluIoIqG10oTmkryIBJ57gVItYhWEqfPkR5ztVIELoomiqQwooooASHGbLOsT6UuKZxOHzQQSrLsRy7we8HuoS62zCD5yCJ+FQ2A9lorubxopWKzE4z9Hl03FyYkdXOs2+3H2gcp9wprE/o6wd0ZXuXi6yAxIUg+CxqNK9Iqq43jrdsDMMzNoEG5/kPGs+EyrbMJwjgTYHPhhc61I6zUAGHJWI75Wam/IyNbLlfAHT3MDHlpUi1Clmcy51MScoEwqjeBr7zTbXUJzLmB+w2vmI1riySuR6uGDUEM3LOMkRdtxzm3rHONYmn8HYu2WL27gZmEM1xcx0+rlIyjwFOpi1j6X3G/lThYkdnQ+IP4GpTouWNSXJDxnyi6wNzFEQZVbaKsHv7WY+tN4nhNiDcvZrkSS1x2cgb6ZjVjasga8+ZO9RMei3HS0dQZdh4L7IPmT8Kr5GTHBBeiv4TwxczX+rVSwhVUAZVE7gCMx3p+9hVeLuIAVbclVJ0XlmY8zHKp72VVi4BLEBYHcD3etIuYHOwZyWAiE2WR3jn60bmNwS6KniC3cUhVCbNudyO3cjuEdkedUeJXhWAJN1TcvntGe28n4LUvpZ0ys2HFlW7R0d1AbqxzjvaqjBYLg2JY6szESxNy4CTzma7MdpcnNkq+C26H8TGNuveyFRa7FtSfrDtMTzaIFLxpyY17cBV6pCo3nU/htVrgMPh8Jh2NgfNrJHzmaW2ga7zyqo4m+fHZo1t2lWPF+0fh+NY5Gm2Uk0iYhqIWAvn7A/iNSCtRP/ED/AC/wb/WuWh9F1wQ/0uz9m7/BH51tJrDcGP8ATbP+Xe/+NbNbnKK79OvocObyY+DUTh+ue4DIdpHkBl/KpM+XvqLwkfN6AAZnjujMSIrZoyLIDSmlwwzZtjEacx499LU0I/fTSGLortcJFVYBXaKKbBnYpJFdoUVmI5FFLj/eldpgUmM4xiUItG3bLkE5lc9heRZSu/hPfUK3bglmJZzux3P8h4VF4XLA3SuXrMpCH+7ULCLPMxr5k1NrgyTs9TT4FFWwomig1gzroKBRRQkAi/eCKWY6ASajcOQkF39ptfJfoj3fEmmMUOsvC19BALj+JPsL8M3oKs1FN9CTAUhgSSDsR3/7ilzVRicc11jbstCjR7g/hT9rx5TQuxMr8TY4Vh2OdbAc6kEZ2PmNdagLisFddltYM3DE9mwgEbfSImp/F+j1u5bIRQtxZKtzJ7mPOfGs/wBEgTiGGqOltgR3HMPhpXTu4OaUfsjS8DwFxLhy2hZs5fY0GZiQQcqkhY185qow13PcvXJnNdca8gpyCPQVtMPOUSZ0iaxGCQq11Dul159WJHwrOTsckWINMMPnlP8Ahv8AxLTtt5pgt8+v+W38QrAiydwdz8ttj/Bun3lRWxVqxnC5GKnusn4t/pWnt3O816eHxPPyv7ky5cIViIkA/hUjDoFUKNgBFRFbxowdzKWSAAsZdfaBA/DUegrQiyyU0oa0yraa04hpgOl6iXr7I6mJRuzP1WJ007jT4FNXryrCsQM2kHnUjslM0UoGqi5fS2yKhWGcIV231kd9WoI5UwsVNcJpi5iIcKREjQ8j4Dxp0CKAsVJ76K5NFMqjPAV2oHClvpns4gg3bZjMNriH2G8zz8RVhXlSVOj2cclKNoau3YPhp+NOCmcZhhcRlPMR5U3w6+WQToR2SO4jQ/z9akslV0VyoPE8WFQqGGcwqidZbQab85quwbG+Dai7c+vdY9+iwg9Oz8anXLwEAzrt4nuowtkIioNlAHwpriN4JbZz9EE/DlQTRXOXv3HVjFpDlAQkFzGuY9wOkCplu0oGVVAHcBTODs5EVecSfM6k++akreVe8nuAn8KGx0V3CeCiwXId2ztOp28qj3rC2cWt3LC3l6tj3ONUJ84itB1/7Le6ofE7Bv2mtwVJ1Ukeyw1BjzFNSE4k5BpWU6QWTbxSt9G8sfvoNPgfhV9wjFl7faA6xey4nZhufI7+tQumWGL4YsNGtMtwEbjKRmj0mmlbozyeNlbbbfu79KgHFBroNpWvEKQRb1iTPab2Rt386m2eA2WAZi92YIzsxEHUdkQKsUxaoBas2w7RoqQqqP2mGgrtx6X2zzJ6n9FdhLWKW6bpwxy9XGUXUzSDPfHPvq2scTEhXVrROwuCAT4MJBNP4UXY+cNuY0CltPUnX3ULhy8rdCMp5QdfOa6VjSXBzSk5cssLbxUpXGneKzzcNuWx8xcAHJbnbUeEyGA9TSk4s1s5cSmTWM6y1s/vbr61LVBE0yXD/sU9buVWYTFK4zIwYd4II+FSw/fU2UTMxroOlMq4p4GkMbv2lcQwGmxjUc9D6UrC3tIPtKY8+4+tdBpu7aDagwe8fnTsBzEoHXKw8QRuCNqbN8pHWEEFoDARqToCBNcfDTBLNI2IYj3gbimsZg840dlIKsOYJQyJBpNgWUDvHuNFQf1hc+o/w/6qKNwEDpAmR0vzpPV3O6GIyHTub+Kk1ZcTwzMpVcjhhBRiRI5wRsazfCsQe3acMr2jlOcQWX6Ddx00JGkg1x5oe0d+kyemWVV6jJfI5XBmH210I9Vg+hqfNQ+JWyySo7aEOvmOXqJHrXMegTJqgwnCbbY18SBqoy67FyIMeQ+JqbiOIg2g6algAo/aOkHyO/lUvAYfq0VSZIGp72OpPvqlwJ8j9VvHWlbafXuKPRZc/wAMetWVVfEVDYiyPqrcc6+CqNP3jRYMWAXO/Y597dw8qmWbAFFm3A0p0UmxnEQDagiu0UDKziWBYnrbJC3R7ri/Vb8jTTY9b1q8hBS4Lb5kbQjsnUfWXxFXBqt4zwlL66ko4kK66FZB08R4VcHyZZIunRUcPto1m3mluwnM/VFWOFv2bQCCE2gAQPeBFZ3D2SrCxdzJcQAKysQLige0o29DVnZw14jsYlgI+kttv/iK9jG7ijwZpqTTLpMQjey6kxsGUnx2qSnOsze4ZcAl7qkeGGBP/pM0YW2VJgu3lhrv/VVkmmvKeQE0wltiTqmWeYM7eetUzWrjMSq3R45GGvrdgeq1PtX723Vc/pMASdpgT3UNDO4jgVonMk23+vbJT3gaH1FJbEY20P7q+ORLdUxA79Cp+FOumIb+8S2O5UJP3m2+7TCcJtzmcdY0zLkn3A6D3VOxMQ/a6U2g4t3ley8TDDMP+YkrHnFWGH6Q4Z2CriLZY7DOAfcabDwNqi4rC23ENaRwT9IKal4yrNElz/f/AGp2axyrfw+tgm5b/wCAxiB/hvy8jVng+kdhiFulsPc+pe7M/Zb2W9DWbjQ7L+aJpn5QvLWlK01DGOR9n30UiBRUiJ2JwCPBI7QMhtQR6is/0kw8Bb4GtvR/G2fa93tela6oPEgiqzPGQKS3lBnTyqZK0aQltdmZU6aUoGoPC7hA6tlKwMyZjqbTE9WT4gQD41PmuKSpns45qcUyjwOEjFXIPYWHy91y5OaPRZ/fNXYqLgrUF25s5O3d2QPh8almpNKOzVRZXPibrbhQlse7O38Q91WdxwokmANT5CoHArR6vO29xmuH97b3AAUCfZYgUCumuUFBRXaKAI+MusqMUXOwEhe/wowuIW4oYTqAYOhHgRyNPE1X8R4xh7H9Y4U9w1Y/ujWnFWKmc4xwsX0yzlYHMj80bkfLwqFwi/mWGGV07LjuYfkd/WoF3puknJZYxzZlSfTU1T4npOeuF5LWQMCtxQwbOfoFdPaHjyNdmnk4vk49TpXLlI2eJxCW1LOwUAbk6VQXON4csx/pIX6wcheWylpj0qhxmNe6wZ2BMaJGia6EgaFq5HdJ0Ez6VvLPXReD8U5RuRucNh0uIGt4m8ytsRcPruJFOfqe2dOsvDXcXn/nWX6LYprd25atrmDgOqloAYaOZ7tjWiGDvP7d9k1MrahfexBY+8VvCe5Hl6jG8U3EmHh7CMmJugjYNDj1BE/GmTfvWyOstFx9e3l+KsQR6TTw4cgiDc8+tY/iaXhbZU7uwj6UEj13NaGBGudIMKrBGvKrnZSrBvdlp8Ym00RcU6k/7mn8VYt3BFxA48VBjy7qq34Oix1V17eh0kuo/deaQFnadTsVI8CKaxD2W7LdWwOgBgzVfaw18GAmGujvINtvXRgaW12+ns4a1Eyct0SfLsDWkNDTcJCnNaxF2zH0VcFB+44IjwFTLPHblkAYkBre3XoPcXtjVfMSK5YxJdR2HTwZRPwJ0qWuumvuqXFFWH/1Pg//ADdn79Fc+Q2/qJ9wUUbR7jcC6sgSJOsc6g8UsG8vVqwy51F3vyDVlHidB5E1XYTh4HsX/a9twyl3/e5elWuezh7ZJZbaLqST7ySdzXMogVHSLAM4D246y1JX9pY1Q+enkQKrMNfDqHWYPfuO8HuI2qr4h0wuXbhNiw/VqTla5Kqx2zZfaYayBpUHhHFXW+ReZIvGQVXKqvrIgnTNHv8AOss2JtWjr0mfbLazTiuzXJpNy6qgljAAknuA3riSZ6jlxZX8ZcsFsL7Vzfwtj2z67etWK6VmujnE+uv3i6lXYg252NpdAB3HUk+daaqca7JhJSCiijnUmjOMY1NMXsaiiSdBz5e/aqbjPSi3ZlEHWvzAjKv2m5eVYvifELt9g15pHJRIRf3eZ8a0jjsqEHJmg4x0pNzMmGOUbG4RE7yEH51lFaScss86k9/OW511AzDTspO+xMch76l2mMDKpUby40LeW/vrdRo7YYUiFcwRJM5WbTWCV1PnUoWxbmUljty9w7qUxZSOyx0JfYAa6RSFhgSV7MSX3JWOXctBajRILABv29T+Mf77qAZIEjkc2+4FcUyp7W+mw1Fcysq7EQAGE86EdEVSF3cS6kXUMXEMgxKmNCCJ1kflV7gul5Gt21mTfrLYOk7E2zqPfWeTWQZB3Hkd6RZlewdWBgwRl02rSORxPN1Gix5XbPTrN9Liq6MrKdQQZmlW11rzbCYhrbm5YYIQZKfQfkQV7/GtZwjpSt6R1Tq6+0sA+o1kiuqGSzwNVopYXfo0YU01fU6CWGh2I8O8VCXihM5bF0n91QfvNpTb4rEE6WkUEfSuSfco/OtThJX6tP8Axb33h+IWaZbh+Xa9d9WzD1BqVYuPHbif2VaPWah4uxiGHZvLOpg24B8MwMj40DOYg3RlIUOP2XKN5ZSCpqOnE8ujm/bP7doMPvpIqRhmc6OhVh4yNOc1PtE76++qpFkD9YW//NH/AJR/lRVj13ifeK7RwBnm6L4Pf5Nb9FA/ClWeCWAwKpEHTmPcZFTLhvAf1af8w/8ARUS5exHK0vpc8PKo2ozFXBecl06sWg3V5nzZmfWAltASwMHupR6M37gOYoNNQbN4a/snkalcLw9u/aW1dfJdSexOUnKzG2ytodAxBI5TND8FvrHZDeJtpc1+1mQn7tFAuORGGs4pFVXIcgwrQ6HwDK4AY+RFQOPNeuRYuL1KmDqQWugdxUlQs7iTyqzwmGxSnY94ItssHyDxFT8Pw+6zBmGSJ12AmZ7OZlMzMZV86y+CN2b/ADzaowV3DXUhkaXQyvL02jUCK2HBeJLfthhodip3Vhup8qorV9TImGBO8DMM0Ar3j+YqPdW5bfrbO5EOuwuDkftDkfHWss2Hci9PncJc9GxvXgon0A7ydqxHSbjrEmzafn8447z9FDyA5mk8Y6STaHVt2m7PMFCR2pHIgfiKzVtJ7ImOZ+qD+Jrkjjrs9zT/AOjsdS0dcoA08IH8zNPhFQiSXbfYaemwFNO4SABr5fGl2kyyTJYnU+EaCPCr6PRjQ7lYgBniCZ3CrOo1Gpptb6j2e1vvt6TSMVmKwJGokd9AsBZLEdkyFHsyB8dudOwdo57ZiMwM7mFHmee+wqTbtMQuYyCCMqgCffSFAIJMQB3gZZMbUr5QsmMvLYzHlrQWhhVCn2Y35Du2kVy3fDSFMnLIBMaiZ3p9nPJWgwdgNvTSuP2tDbmRzYGPcKmwtibBGRWVlmIIjUDmfAzSb5CvIPZYgTEaxpqactWAsakfZzAjXkQaResMVykSAc0n2oESInWQKZLsUiRccKsh+0pO4ymG99OFDmS4pa2y6B138mnRt6YW+M+Yxsyhcx7MwQYOvKnbmGUHXUkaRrr3RTtohxU1UjQYTpm4Hz9oMNs9qD6sh1HpO1aPA4q1eXPaYMI3GkeY5GvOzf12YGdezljl+HdT1pchL27ly231lgAmfpA6Gt45jy9R+Li+YHpnVj/ZpD2tIzuv2Y/MGshgell22ypiAjhgIuhisHlnUAj1rVI7kSYOkjKZB7q6VJM8TJgljdMbxPyhVPV9VdPIOCh9WXT4VV2+OXkH9IwwtnvBZk++BEecVfIG8KTc2Oo98VVmZQfr1Pr2f+Yf5UVOlfrr97/WikVZW8T42tq2Ha+AOZCjLvG2pj1qHhekeHciMfZnuyhf4mrP/pKuMEtK7Egq+gglO0pkkicomK8yuWj5iraMz3m+gvgAGxcgyCrwQQNDswnwp3D4nHIOwMwX9smf3S2WfJa8DNl1AaCB3gEfGnsJxTEWzNu9cT7LsPhNSB70/SrFhQClpSDrnJWR4ZrYpSXMTfCPdv8AzZg9Xb0DeZAGnhXjWH6b49P/ABBbwZVb8RNWeH/SdjV0ZbTj7BH4GgD2B8PbZQrICumhAO3mNKpMZw97Wts5k5oxJK/ZPPyNY7DfpXP95hh5q/5EVZWv0nYNxD27qegP4GgGRukuEWVxCTlaUf7WmWQdQeRqBhxAI35HWJPn51Y47pNgLqsVugFtGVkKhx7tGHJqqsDxBHA7QmQNSBMHurmywPb/ABudcxZNtLA/aI1P4AH0py6Z1AmTEnvpKGdhPdBmNfA60i8wkc9fEQx/0rlpnuRa9Dly5CsTyB5jfxmmcQSWCfs5jA8Oz8ZNOvoDsSBpzk7c6asMCZ55V5eelCRTF3XS2CdWLH2jMsYrqFzrCIOQ1JptoNxd9FbSeZIANPgzz11000ptiQlsPqZJkDWSPhFOWgAIA18/CknKIloB1JI2io15pQsxAQmIHtN3emtSX0SmvzqNEkDNMwecd9cIEZjOuuZu7/YpFtNiQoKwFULprptzNN4xDAUblgsHTdoPpVJEv+jwYOMzqp7ly7Dv8DTL4Ngeze5SASSPQjWn38+Z08qcZSToo2Og100/lQPYqInWMvtMUkbkyp947NSLKllB6whDoW3WR4x+dTOEcOfE+ycqLoWYSDrso51Yp0TNu6HB660NeqJyAHvUAZSfOlwcmTOsbpGfwtrM0Ww11joQJYHlqfZUVquC4LFYcjPc7JgdX7QUeDRPxNXWAxVpuygyEbpGUj0509dSTSWZp8Hn6is3LC7xqxbBN26Lf2gQPftS7XEbFxcyXUKxvt/3pS29CGAI8Vn4VCucHs+0ma03+GSo+57Pwrshkvs8qeFR6JHzf10+8KKhfIbn/Hf7lv8A6KK03GW0w3SP+23f8tf4xXneJ/rW8zRRW7Mmasf2FvP8qymG9oeY/GiilIkjYr2m8zTNFFSM5QKKKBixzqTZ5UUVE+jp0vmW/DvbXzrTpsPtD8DRRXJI+lwCn5Umx7P7q/hRRUHV7I+G/rPT86nfQT978aKKmQIRjf6seR/GoWP2t/aH5UUU0ORa39rfnTHEef20/jFcopil0Lu7nyNN2/aP2T+ddooKfRtuh39jtev41c8j5Gu0VnI8fN2VnE/7RhfX+E1arvRRWcTL0Sn9k0k7D0oorqicmToeooorU5T/2Q==" alt="Preview">
+
+    
+    <div class="thumbnails">
+      <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeCB-9lTIINghOA0Ga3I8XUy8CT5M4vKD_aY7MFP4b3DfJAC7Z1pKn-hUBJtrswT4bLiqLObpZtsfUfD96vyhHAE65C_QucJpX4lMPrwJo8nBs2ZDKrgjqP7Si4iyfxzxagleAAILKdjEeLelvJJAfSBWv4?key=tE_qip6BHPL4g00JXL_X6Q"
+           onmouseover="changeImage('https://lh7-rt.googleusercontent.com/docsz/AD_4nXeCB-9lTIINghOA0Ga3I8XUy8CT5M4vKD_aY7MFP4b3DfJAC7Z1pKn-hUBJtrswT4bLiqLObpZtsfUfD96vyhHAE65C_QucJpX4lMPrwJo8nBs2ZDKrgjqP7Si4iyfxzxagleAAILKdjEeLelvJJAfSBWv4?key=tE_qip6BHPL4g00JXL_X6Q')"
+           onmouseout="resetImage()">
+      <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdUY2UFfZ82dotmENIgQy_9Eg2mbw1D8Xss6aKeZnIGbPSwmk66fSNdupGhf7HQD32zRoOzV7aPgtkj7hzh2MmnctEB-0i7m5t5AOdcLAOnP6ipB2RsJzY1A-FX7jDzUflirok3epvm7NbTjETj-mrbhvtZ?key=tE_qip6BHPL4g00JXL_X6Q"
+           onmouseover="changeImage('https://lh7-rt.googleusercontent.com/docsz/AD_4nXdUY2UFfZ82dotmENIgQy_9Eg2mbw1D8Xss6aKeZnIGbPSwmk66fSNdupGhf7HQD32zRoOzV7aPgtkj7hzh2MmnctEB-0i7m5t5AOdcLAOnP6ipB2RsJzY1A-FX7jDzUflirok3epvm7NbTjETj-mrbhvtZ?key=tE_qip6BHPL4g00JXL_X6Q')"
+           onmouseout="resetImage()">
+      <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcMWMLZbyQBTasl65xrW2QIMqwAJT6_qzhTFzBk_60iV9K059FPU56_g6ay2OpLNoKtV1WWXNgTptL-fNqaCO0dAohO4kz_rBwbpZpn9hNQdsmwMS_sFTrmz6HKQZsORdJleeeE2sc6S2OfLh-I6aBmbTwP?key=tE_qip6BHPL4g00JXL_X6Q"
+           onmouseover="changeImage('https://lh7-rt.googleusercontent.com/docsz/AD_4nXcMWMLZbyQBTasl65xrW2QIMqwAJT6_qzhTFzBk_60iV9K059FPU56_g6ay2OpLNoKtV1WWXNgTptL-fNqaCO0dAohO4kz_rBwbpZpn9hNQdsmwMS_sFTrmz6HKQZsORdJleeeE2sc6S2OfLh-I6aBmbTwP?key=tE_qip6BHPL4g00JXL_X6Q')"
+           onmouseout="resetImage()">
+    </div>
+  </div>
+
+<script>
+  function showtitle(){
+    try{
+    var name = prompt("What your name?");
+    document.querySelector(".title").innerHTML = `welcome ${name}`;
+    document.getElementById("tick").innerHTML = "&#9989;";
+    console.log("finsih");
+    }catch{
+      console.log("erro");
+    }
+  }
+
+
+  const mainImage = document.getElementById("mainImage");
+    const defaultImage = mainImage.src;
+
+    function changeImage(src) {
+      mainImage.src = src;
+    }
+
+  function resetImage() {
+      mainImage.src = defaultImage;
+  }
+
+
+
+</script>
 </html>
